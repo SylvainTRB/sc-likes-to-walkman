@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+
+# Downloaded audio and staging
+MUSIC/
+WALKMAN_STAGING/
+/tmp/walkman-mtp-export/
+
+# Run state and caches
+manifest.json
+tracks_cache.json
+mtp_sync_state.json
+walkman_sync_state.json
+likes_*.m3u
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
